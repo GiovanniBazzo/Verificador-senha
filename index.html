@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Login</h1>
+    <div class="login">
+        <label for="user">Usuário:</label>
+        <strong>"Desconhecido"</strong> 
+        <br>
+        <label for="password">Senha: </label>
+        <input type="password" class="campo__texto" id="senha" placeholder="Digite sua senha">
+        <button class="botao" id="botao" onclick="verificarMinimo()">Confirmar senha</button>
+        <div class="info">
+            <div class="feed">Mínimo de caracteres: 8</div>
+            <div class="feed">Mínimo caracteres especias: 1</div>
+        </div>
+    </div>
+</body>
+<script src="javaScript.js"></script>
+</html>

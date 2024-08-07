@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: rgb(0, 255, 242);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: 40px;
+}
+
+.login{
+    background-color: rgb(70, 62, 62);
+    border: solid 5px rgb(47, 0, 255);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+    width: 500px;
+    height: 440px;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.campo__texto{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    margin: 15px;
+}
+
+.botao{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:28px;
+    text-align: center;
+    text-decoration:none;
+    background-color:#058800;
+    display:block;
+    position:relative;
+    padding:10px 20px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.feed{
+    margin: 7px;
+}
